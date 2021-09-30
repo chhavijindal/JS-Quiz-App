@@ -57,7 +57,7 @@ function selectAnswer(e) {
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')
   } else {
-    startButton.innerText = 'Restart'
+    startButton.innerText = 'The End! \nRestart'
     startButton.classList.remove('hide')
   }
 }
